@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
+import Test from './test'
 
 // ── 平台配置 ──
 const PLATFORMS = [
@@ -345,6 +346,10 @@ export default function App() {
           <a href="https://github.com/sansan0/TrendRadar" target="_blank" rel="noopener noreferrer"
             style={{ color: '#6b7280', textDecoration: 'underline' }}>TrendRadar</a>
         </footer>
+        <div>
+          <Test />
+          <Test />
+        </div>
       </div>
 
       <style>{`
