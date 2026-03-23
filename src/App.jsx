@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import Test from './test'
+import Gold from './gold'
 
 // ── 平台配置 ──
 const PLATFORMS = [
@@ -349,6 +350,9 @@ export default function App() {
         <div>
           <Test />
           <Test />
+        </div>
+        <div>
+          <Gold />
         </div>
       </div>
 
